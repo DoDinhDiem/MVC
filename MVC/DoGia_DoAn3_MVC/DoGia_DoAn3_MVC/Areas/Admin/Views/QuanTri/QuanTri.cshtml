@@ -1,0 +1,94 @@
+﻿
+@{
+    ViewBag.Title = "Trang quản trị";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div ng-app="DoGia" ng-controller="QuanTriCtrl">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="page-title-box">
+                    <h1 class="page-title" style="font-size:30px;">@ViewBag.Title</h1>
+                    <p class="text-muted font-18 m-b-3">
+                        <button type="button" class="btn btn-outline-primary btn-rounded waves-effect waves-light" data-toggle="modal" data-target="#exampleModal" ng-click="TaoMoi()"><i class="fe-plus"></i> Tạo mới</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="card-box">
+                    <table class="table mb-0 tablesaw table-bordered">
+                        <thead>
+                            <tr>
+                                <th>UserName</th>
+                                <th>PassWord</th>
+                                <th colspan="2">Thao tác</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr ng-repeat="s in listQT">
+                                <td>{{s.UserName}}</td>
+                                <td>{{s.Pass}}</td>
+                                <td>
+                                    <span id="save" class="btn btn-outline-primary btn-rounded waves-effect waves-light" data-toggle="modal" data-target="#exampleModal" ng-click="getbyID(s)">
+                                        <i class="fe-edit-2"></i>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span id="save" class="btn btn-outline-danger btn-rounded waves-effect waves-light" ng-click="deletebyID(s)">
+                                        <i class="fe-trash-2"></i>
+                                    </span>
+                                </td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal fade" id="exampleModal" tabindex="1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content" style="width: 150%; margin-left: -100px;">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Quản trị</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <form novalidate name="frmLoaiSP" id="frmLoaiSP" class="form-horizontal row-border">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label class="col-md-4 control-label" for="input17">UserName</label>
+                                            <div class="col-md-12"> <input type="text" id="idTenHang" class="form-control" name="nameTenHang" ng-model="UserName" /> </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-md-4 control-label" for="input17">PassWord</label>
+                                            <div class="col-md-12"> <input type="text" id="nameGhiChu" class="form-control" name="nameGhiChu" ng-model="Pass" /> </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-md-4"> </div>
+                                            <div class="col-md-12">
+                                                <span id="save" class="btn btn-success margin-right-btn" ng-click="CreateUpdate()">
+                                                    <i class="icon-save"></i> {{btnText}}
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <script src="~/AngulaJS/CrudService.js"></script>
+    <script src="~/AngulaJS/AD_QuanTri.js"></script>
+}
+

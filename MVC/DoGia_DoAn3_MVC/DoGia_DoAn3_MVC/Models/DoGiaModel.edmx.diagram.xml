@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e42d53131a6e4ce797178d7af68a9a53" Name="Diagram1">
+        <EntityTypeShape EntityType="DoGia_DoAn3Model.CTDatHang" Width="1.5" PointX="5.25" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoGia_DoAn3Model.CTHoaDonBan" Width="1.5" PointX="8.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoGia_DoAn3Model.CTHoaDonNhap" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoGia_DoAn3Model.DatHang" Width="1.5" PointX="3.5" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoGia_DoAn3Model.HangSP" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoGia_DoAn3Model.HoaDonBan" Width="1.5" PointX="6" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoGia_DoAn3Model.HoaDonNhap" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoGia_DoAn3Model.KhachHang" Width="1.5" PointX="0.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoGia_DoAn3Model.LoaiSP" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoGia_DoAn3Model.NguoiDung" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoGia_DoAn3Model.NhaCungCap" Width="1.5" PointX="0.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoGia_DoAn3Model.NhanVien" Width="1.5" PointX="0.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoGia_DoAn3Model.QuanTri" Width="1.5" PointX="8.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoGia_DoAn3Model.SanPham" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoGia_DoAn3Model.TinTuc" Width="1.5" PointX="3" PointY="20" IsExpanded="true" />
+        <AssociationConnector Association="DoGia_DoAn3Model.FK__CTDatHang__MaDH__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="DoGia_DoAn3Model.FK__CTDatHang__MaSP__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="DoGia_DoAn3Model.FK__CTHoaDonB__MaHDB__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="DoGia_DoAn3Model.FK__CTHoaDonBa__MaSP__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="DoGia_DoAn3Model.FK__CTHoaDonN__MaHDN__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="DoGia_DoAn3Model.FK__CTHoaDonNh__MaSP__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="DoGia_DoAn3Model.FK__DatHang__MaKH__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="DoGia_DoAn3Model.FK__SanPham__MaHang__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="DoGia_DoAn3Model.FK__HoaDonBan__MaKH__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="DoGia_DoAn3Model.FK__HoaDonBan__MaNV__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="DoGia_DoAn3Model.FK__HoaDonNha__MaNCC__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="DoGia_DoAn3Model.FK__HoaDonNhap__MaNV__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="DoGia_DoAn3Model.FK__SanPham__MaLoai__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="DoGia_DoAn3Model.FK__TinTuc__MaNV__5AEE82B9" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DoGia_DoAn3Model.sysdiagram" Width="1.5" PointX="10.375" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

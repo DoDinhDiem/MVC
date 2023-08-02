@@ -1,0 +1,142 @@
+﻿
+@{
+    ViewBag.Title = "SanPham";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+<div class="row">
+    <div class="slider">
+        <div class=".slideshow-container ">
+            <img class="slide" src="~/Assets/images/slide/img1.png" idx="0" alt="" />
+            <img class="slide" src="~/Assets/images/slide/img2.png" idx="1" alt="" />
+            <img class="slide" src="/Assets/images/slide/img3.png" idx="2" alt="" />
+            <img class="slide" src="~/Assets/images/slide/img4.png" idx="3" alt="" />
+            <img class="slide" src="~/Assets/images/slide/img5.png" idx="4" alt="" />
+            <img class="slide" src="~/Assets/images/slide/img6.png" idx="5" alt="" />
+        </div>
+        <div class="change-img">
+            <button class="slideshow-button button active" idx="0"></button>
+            <button class="slideshow-button button" idx="1"></button>
+            <button class="slideshow-button button" idx="2"></button>
+            <button class="slideshow-button button" idx="3"></button>
+            <button class="slideshow-button button" idx="4"></button>
+            <button class="slideshow-button button" idx="5"></button>
+        </div>
+        <div class="btn-change" id="prev"><i class="fa fa-angle-left"></i></div>
+        <div class="btn-change" id="next"><i class="fa fa-angle-right"></i></div>
+    </div>
+    <div style="margin-top: 20px;">
+        <a href="">
+            <img src="~/Assets/images/Logo_Icon/QC.png" style="border-radius: 10px; width: 100%;" alt="QC">
+        </a>
+    </div>
+
+    @*Icon sản phẩms*@
+    <div class="cate-gory">
+        <ul class="cate-list">
+            <li class="img-cate">
+                <a href="">
+                    <img src="~/Assets/images/Logo_Icon/coll_1.jpg" alt="icon">
+                    <p>Nổi bật</p>
+                </a>
+            </li>
+            <li class="img-cate">
+                <a href="">
+                    <img src="~/Assets/images/Logo_Icon/coll_2.jpg" alt="icon">
+                    <p>Điện thoại</p>
+                </a>
+            </li>
+            <li class="img-cate">
+                <a href="">
+                    <img src="~/Assets/images/Logo_Icon/coll_3.jpg" alt="icon">
+                    <p>Máy tính bảng</p>
+                </a>
+            </li>
+            <li class="img-cate">
+                <a href="">
+                    <img src="~/Assets/images/Logo_Icon/coll_4.jpg" alt="icon">
+                    <p>Tai nghe</p>
+                </a>
+            </li>
+            <li class="img-cate">
+                <a href="">
+                    <img src="~/Assets/images/Logo_Icon/coll_5.jpg" alt="icon">
+                    <p>Sạc dự phòng</p>
+                </a>
+            </li>
+            <li class="img-cate">
+                <a href="">
+                    <img src="~/Assets/images/Logo_Icon/coll_6.jpg" alt="icon">
+                    <p>Loa bluetooth</p>
+                </a>
+            </li>
+            <li class="img-cate">
+                <a href="">
+                    <img src="~/Assets/images/Logo_Icon/coll_9.jpg" alt="icon">
+                    <p>Ốp lưng</p>
+                </a>
+            </li>
+            <li class="img-cate">
+                <a href="">
+                    <img src="~/Assets/images/Logo_Icon/coll_7.jpg" alt="icon">
+                    <p>Củ sạc</p>
+                </a>
+            </li>
+            <li class="img-cate">
+                <a href="">
+                    <img src="~/Assets/images/Logo_Icon/coll_8.jpg" alt="icon">
+                    <p>Phụ kiện</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    @*Sản phẩm điện thoại*@
+    <div ng-repeat="l in listLSP">
+        <div class="head-content">
+            <a href="" class="sport-title">
+                <p>{{l.TenLoai}}</p>
+            </a>
+        </div>
+        <div class="product-main">
+            <div class="box-right">
+                <ul class="product-list" ng-repeat="s in l.ListSanPham | limitTo: 10">
+
+                    <li class="product-item">
+                        <div class="left-block">
+                            <a>
+                                <img class="img-responsive" alt="product"
+                                     src="~/Assets/images/{{s.Anh}}" />
+                            </a>
+
+                            <div class="add-to-cart">
+                                <a class="add-item-to-cart" title="Thêm hàng vào giỏ" href="" ng-click="addtoCart(s.MaSP)" data-name="{{s.TenSP}}"
+                                   data-price="{{s.DonGia}}" data-image="{{s.Anh}}" data-product-code="{{s.MaSP}}">Thêm vào giỏ hàng</a>
+                            </div>
+                            <div class="bestseller"></div>
+                        </div>
+                        <div class="right-block">
+                            <h5 class="product-name"><a href="/SanPhamCustumer/ChiTiet?id={{s.MaSP}}"><b>{{s.TenSP}}</b></a></h5>
+
+                            <div class="content_price">
+                                <span class="price product-price">{{s.DonGia.toLocaleString(vi-vn)}}<sup>đ</sup></span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+        <br>
+        <a href="/SanPhamCustumer/DanhMuc?id={{l.MaLoai}}">
+            <div class="see_more">
+                <p>Xem thêm <i class="fa-solid fa-angles-right"></i></p>
+            </div>
+        </a>
+    </div>
+</div>
+@Html.Partial("_PartialCart")
+@section scripts{
+    <script src="~/AngulaJS/CrudService.js"></script>
+    <script src="~/AngulaJS/SanPham.js"></script>
+}

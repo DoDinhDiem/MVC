@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "LoginAdmin";
+    Layout = "~/Views/Shared/_LayoutAccount.cshtml";
+}
+
+<div class="account-pages mt-5 mb-5" ng-controller="LoginAdmin">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6 col-xl-5">
+                <div class="card">
+
+                    <div class="card-body p-4">
+
+                        <div class="text-center w-75 m-auto">
+                            <a href="/AccountCustumer/LoginHome">
+                                <span><img src="~/Assets/account/images/LoGo_DoGia.png" alt="" style="width: 100%"></span>
+                            </a>
+                            <p class="text-muted mb-4 mt-3">Nhập tài khoản và mật khẩu của bạn để truy cập trang Quản trị.</p>
+                        </div>
+
+                        <h5 class="auth-title">Đăng nhập</h5>
+
+                        <form>
+
+                            <div class="form-group mb-3">
+                                <label for="emailaddress">Tài khoản</label>
+                                <input class="form-control" type="text" id="UserName" placeholder="Nhập tài khoản">
+                            </div>
+
+                            <div class="form-group mb-3">
+                                <label for="password">Mật khẩu</label>
+                                <input class="form-control" type="password" id="Pass" placeholder="Nhập mật khẩu">
+                            </div>
+
+                            <div class="form-group mb-3">
+                                <div class="custom-control custom-checkbox checkbox-info">
+                                    <input type="checkbox" class="custom-control-input" id="checkbox-signin">
+                                    <label class="custom-control-label" for="checkbox-signin">Nhớ tài khoản</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group mb-0 text-center">
+                                <button class="btn btn-danger btn-block" type="submit" ng-click="LoginAdmin()"> Đăng nhập </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+    <script src="~/AngulaJS/AD_Login.js"></script>
+}
+

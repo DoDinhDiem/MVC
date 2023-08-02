@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/Assets/css/News.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="~/Assets/lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/Assets/lib/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="/Assets/lib/select2/css/select2.min.css" />
+    <link rel="stylesheet" type="text/css" href="/Assets/lib/jquery.bxslider/jquery.bxslider.css" />
+    <link rel="stylesheet" type="text/css" href="/Assets/lib/owl.carousel/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="/Assets/lib/jquery-ui/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="/Assets/lib/fancyBox/source/jquery.fancybox.css" />
+    <link rel="stylesheet" type="text/css" href="/Assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/Assets/css/switcher.css">
+    <link rel="stylesheet" type="text/css" href="/Assets/fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/Assets/fontawesome-free-6.0.0-web/css/all.css">
+    <script type="text/javascript" src="/Assets/js/jquery-3.6.0.min.js"></script>
+    <script src="~/Scripts/GioHang/Cart.js"></script>
+    <link rel="icon" href="/Assets/images/Logo_Icon/DG.png">
+    <title>Cửa hàng điện thoại Đỗ Gia</title>
+</head>
+<body ng-app="DoGia" ng-controller="SanPhamCtrl">
+    <div id="header">
+        <div class="row">
+            <div id="banner">
+                <div>
+                    <a href="" class="logo">
+                        <img style="height: 58px" src="/Assets/images/Logo_Icon/ĐỖ_GIA_LOGO.png" alt="AnhDiem">
+                    </a>
+                </div>
+                <div class="tools-seach" style="display: flex; flex-wrap: nowrap">
+                    <form class="input-group">
+                        <input type="text" placeholder="    Tìm kiếm sản phẩm..." id="txtseach">
+                        <button type="submit" id="btnSeach">
+                            <i style="font-size: 20px" class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="menu-cart">
+                    <ul>
+                        <li class="media">
+                            <a href="" class="text-center" title="Đơn hàng">
+                                <img src="/Assets/images/Logo_Icon/order-icon.png" class="align-self-center" alt="order-icon" width="24px" height="24px">
+                                <span class="text-icon">Đơn hàng</span>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="" class="text-center" title="Cửa hàng">
+                                <img src="/Assets/images/Logo_Icon/address-icon.png" class="align-self-center" alt="address-icon" width="24px" height="24px">
+                                <span class="text-icon">Cửa hàng</span>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="/Account/LoginOut" class="text-center" title="Tài khoản">
+                                <img src="/Assets/images/Logo_Icon/account-icon.png" class="align-self-center" alt="account-icon" width="24px" height="24px">
+                                <span class="text-icon">Đăng xuất</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="container">
+        @Html.Partial("_PartialMenu")
+        @RenderBody()
+    </div>
+    <div id="footer">
+
+        <div class="content">
+            <div class="top">
+                <div class="logo-details">
+                    <span class="logo_name">
+                        <img src="~/Assets/images/Logo_Icon/Đỗ_Gia_Back.png" width="200px" alt="">
+                    </span>
+                </div>
+                <div class="media-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="link-boxes">
+                <ul class="box">
+                    <li><a href="#">Giới thiệu về công ty</a></li>
+                    <li><a href="#">Câu hỏi thường gặp mua hàng</a></li>
+                    <li><a href="#">Chính sách bảo mật</a></li>
+                    <li><a href="#">Quy chế hoạt động</a></li>
+                    <li><a href="#">Kiểm tra hóa đơn điện tử</a></li>
+                    <li><a href="#">Tra cứu thông tin bảo hành</a></li>
+                </ul>
+                <ul class="box">
+                    <li><a href="#">Tin tuyển dụng </a></li>
+                    <li><a href="#">Tin khuyến mại</a></li>
+                    <li><a href="#">Hướng dẫn mua online</a></li>
+                    <li><a href="#">Hướng dẫn mua trả góp</a></li>
+                    <li><a href="#">Chính sách trả góp</a></li>
+                </ul>
+                <ul class="box">
+                    <li><a href="#">Hệ thống cửa hàng</a></li>
+                    <li><a href="#">Hệ thống bảo hành</a></li>
+                    <li><a href="#">Bán hàng doanh nghiệp</a></li>
+                    <li><a href="#">Chính sách đổi trả</a></li>
+                </ul>
+                <ul class="box input-box">
+                    <li class="link_name">Đăt mua</li>
+                    <li><input type="text" placeholder="Nhập email của bạn" /></li>
+                    <li><input type="button" value="Đăt mua" /></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-details">
+            <div class="bottom_text">
+                <span class="copyright_text">Bản quyền © 2022 <a href="#">Đỗ Gia.</a>Đã đăng ký bản quyền</span>
+                <span class="policy_terms">
+                    <a href="#">Chính sách bảo mật</a>
+                    <a href="#">Điều khoản & điều kiện</a>
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Javascrip -->
+    <script type="text/javascript" src="/Assets/lib/jquery/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="/Assets/lib/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="/Assets/lib/fancyBox/source/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="/Assets/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/Assets/lib/select2/js/select2.min.js"></script>
+    <script type="text/javascript" src="/Assets/lib/jquery.bxslider/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="/Assets/lib/owl.carousel/owl.carousel.min.js"></script>
+
+    <script type="text/javascript" src="/Assets/js/home.js"></script>
+    <script src="~/Assets/js/check-oder.js"></script>
+
+    <script type="text/javascript">
+        jQuery('#demo_changer .demo-icon').click(function () {
+
+            if (jQuery('.demo_changer').hasClass("active")) {
+                jQuery('.demo_changer').animate({
+                    "right": "-300px"
+                }, function () {
+                    jQuery('.demo_changer').toggleClass("active");
+                });
+            } else {
+                jQuery('.demo_changer').animate({
+                    "right": "0px"
+                }, function () {
+                    jQuery('.demo_changer').toggleClass("active");
+                });
+            }
+        });
+    </script>
+    <!-- Javascrip Angula -->
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/AngulaJS/App.js"></script>
+    <script src="~/AngulaJS/CrudService.js"></script>
+    <script src="~/AngulaJS/SanPham.js"></script>
+
+    <!-- Javascrip secsion -->
+    @RenderSection("scripts", false)
+
+
+</body>
+</html>

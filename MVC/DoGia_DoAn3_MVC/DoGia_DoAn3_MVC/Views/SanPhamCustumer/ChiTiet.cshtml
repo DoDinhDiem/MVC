@@ -1,0 +1,103 @@
+﻿@{
+    ViewBag.Title = "ChiTiet";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+<div class="row">
+    <div ng-init="getbyID('@(ViewBag.MaSP)')">
+    </div>
+    <div class="home">
+        <ul class="head-home">
+            <li>
+                <a href="/SanPhamCustumer/SanPham" style="color: #999;">Trang chủ</a>
+                <span class="tab">/</span>
+                <spann>{{TenSP}}</spann>
+            </li>
+        </ul>
+    </div>
+    <div class="product-detail">
+        <div class="product-left">
+            <div class="detail-main-img">
+                <div class="product-left-big-img">
+                    <img src="~/Assets/images/{{Anh}}" id="main-img" />
+                </div>
+            </div>
+        </div>
+
+        <div class="product-right">
+            <div class="product-right-name">
+                <h1>{{TenSP}}</h1>
+            </div>
+            <div class="product-right-price">
+                <b><p style="color: red; font-size: 26px ;padding: 5px 0 5px 0;">{{DonGia.toLocaleString(vi-vn)}}<sup>đ</sup></p></b>
+            </div>
+            <div class="product-right-product">
+                <p><span>Mã sản phẩm</span>:<b> {{MaSP}}</b></p>
+            </div>
+            <div class="km-hot">
+                <div class="box-km">
+                    <h2 class="title_km">
+                        <span>
+                            Khuyến mãi - ưu đãi
+                        </span>
+                    </h2>
+                    <div class="box-promotion">
+                        <ul>
+                            <li>
+                                Tặng tai nghe Airpod 3 chính hãng
+                            </li>
+                            <li>
+                                Tặng ốp lưng chống sốc trị giá 200k
+                            </li>
+                            <li>
+                                Tặng thêm 1 năm bảo hành miễn phí
+                            </li>
+                            <li>
+                                Dán cường lục miễn phí trọn đời
+                            </li>
+                            <li>
+                                Giảm thêm khi mua cùng Apple watch
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="RAM">
+                <span style="margin: 20px auto;"><b>Bộ nhớ: </b></span>
+                <span class="var" style="color: #eb3e32;">{{Rom}}</span>
+            </div>
+            <div class="product-button">
+                <button>
+                    <i class="fas fa-shopping-cart"></i>
+                    <a class="add-item-to-cart" title="Thêm hàng vào giỏ" href="" ng-click="addtoCart(MaSP)" data-name="{{SanPham.TenSP}}" data-price="{{s.DonGia}}" data-image="{{s.Anh}}" data-product-code="{{s.MaSP}}">
+                        <p style="color:#fff">Thêm vào giỏ hàng</p>
+                    </a>
+                </button>
+            </div>
+        </div>
+
+        <div style="clear: both;"></div>
+
+        <div class="product-bottom">
+            <div class="product-bottom-big">
+                <div class="product-bottom-title">
+                    <div class="product-bottom-item-head">
+                        <p>Mô tả sản phẩm</p>
+                    </div>
+                </div>
+                <div class="product-bottom-content">
+                    <div class="product-bottom-chitiet" id="chitiet">
+                        <p>
+                            {{MoTa}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+@Html.Partial("_PartialCart")
+@section scripts{
+    <script src="~/AngulaJS/CrudService.js"></script>
+    <script src="~/AngulaJS/SanPham.js"></script>
+}

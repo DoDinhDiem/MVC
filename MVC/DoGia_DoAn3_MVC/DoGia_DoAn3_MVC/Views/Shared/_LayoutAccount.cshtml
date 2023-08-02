@@ -1,0 +1,44 @@
+﻿
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>@ViewBag.Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description">
+    <meta content="Coderthemes" name="author">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="Assets/account/images/DG.png">
+
+    <!-- App css -->
+    <link href="~/Assets/account/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Assets/account/css/icons.min.css" rel="stylesheet" />
+    <link href="~/Assets/account/css/app.min.css" rel="stylesheet" />
+
+</head>
+
+<body ng-app="DoGia" class="authentication-bg authentication-bg-pattern">
+    @RenderBody();
+
+    <!-- end page -->
+
+
+    <footer class="footer footer-alt">
+        2022 &copy; Bản quyền thuộc về <a href="" class="text-muted">Đỗ Gia</a>
+    </footer>
+
+    <!-- Vendor js -->
+    <script src="~/Assets/account/js/vendor.min.js"></script>
+
+    <!-- App js -->
+    <script src="~/Assets/account/js/app.min.js"></script>
+
+    <!-- Angularjs -->
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/AngulaJS/App.js"></script>
+    @RenderSection("scripts", false)
+</body>
+</html>
+

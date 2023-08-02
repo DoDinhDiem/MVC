@@ -1,0 +1,152 @@
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\DoGia_DoAn3_MVC.dll.config
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\DoGia_DoAn3_MVC.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\DoGia_DoAn3_MVC.pdb
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\csc.exe
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\csc.exe.config
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\csc.rsp
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\csi.exe
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\csi.exe.config
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\csi.rsp
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\Microsoft.Managed.Core.targets
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.AppContext.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Collections.Immutable.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Console.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Globalization.Calendars.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.IO.Compression.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.IO.FileSystem.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Net.Http.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Net.Sockets.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Reflection.Metadata.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.ValueTuple.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Xml.XmlDocument.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Xml.XPath.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\vbc.exe
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\vbc.exe.config
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\vbc.rsp
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\VBCSCompiler.exe
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\VBCSCompiler.exe.config
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\EntityFramework.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\EntityFramework.SqlServer.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\Microsoft.Web.Infrastructure.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\System.Web.Helpers.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\System.Web.Mvc.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\System.Web.Razor.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\System.Web.Webpages.Deployment.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\System.Web.Webpages.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\System.Web.Webpages.Razor.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\EntityFramework.xml
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\EntityFramework.SqlServer.xml
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\System.Web.Razor.xml
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\System.Web.Webpages.xml
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\System.Web.Webpages.Deployment.xml
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\System.Web.Webpages.Razor.xml
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\System.Web.Helpers.xml
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\System.Web.Mvc.xml
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\obj\Debug\DoGia_DoAn3_MVC.csproj.AssemblyReference.cache
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\obj\Debug\DoGia_DoAn3_MVC.csproj.CoreCompileInputs.cache
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\obj\Debug\DoGia_DoAn3_MVC.csproj.CopyComplete
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\obj\Debug\DoGia_DoAn3_MVC.dll
+E:\ổ E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\obj\Debug\DoGia_DoAn3_MVC.pdb
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\DoGia_DoAn3_MVC.dll.config
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\DoGia_DoAn3_MVC.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\DoGia_DoAn3_MVC.pdb
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\csc.exe
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\csc.exe.config
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\csc.rsp
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\csi.exe
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\csi.exe.config
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\csi.rsp
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\Microsoft.Managed.Core.targets
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.AppContext.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Collections.Immutable.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Console.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Globalization.Calendars.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.IO.Compression.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.IO.FileSystem.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Net.Http.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Net.Sockets.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Reflection.Metadata.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.ValueTuple.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Xml.XmlDocument.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Xml.XPath.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\vbc.exe
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\vbc.exe.config
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\vbc.rsp
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\VBCSCompiler.exe
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\roslyn\VBCSCompiler.exe.config
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\EntityFramework.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\EntityFramework.SqlServer.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\Microsoft.Web.Infrastructure.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\System.Web.Helpers.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\System.Web.Mvc.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\System.Web.Razor.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\System.Web.Webpages.Deployment.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\System.Web.Webpages.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\System.Web.Webpages.Razor.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\EntityFramework.xml
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\EntityFramework.SqlServer.xml
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\System.Web.Razor.xml
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\System.Web.Webpages.xml
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\System.Web.Webpages.Deployment.xml
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\System.Web.Webpages.Razor.xml
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\System.Web.Helpers.xml
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\System.Web.Mvc.xml
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\obj\Debug\DoGia_DoAn3_MVC.csproj.AssemblyReference.cache
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\obj\Debug\DoGia_DoAn3_MVC.csproj.CoreCompileInputs.cache
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\obj\Debug\DoGia_DoAn3_MVC.csproj.CopyComplete
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\obj\Debug\DoGia_DoAn3_MVC.dll
+E:\E\AnhDiem_DoAn3\MVC\DoGia_DoAn3_MVC\DoGia_DoAn3_MVC\obj\Debug\DoGia_DoAn3_MVC.pdb

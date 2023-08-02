@@ -1,0 +1,155 @@
+﻿
+@{
+    ViewBag.Title = "Quản lý sản phẩm";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="content" ng-app="DoGia" ng-controller="SanPhamADCtrl">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="page-title-box">
+                    <h1 class="page-title" style="font-size:30px;">@ViewBag.Title</h1>
+                    <p class="text-muted font-18 m-b-3">
+                        <button type="button" class="btn btn-outline-primary btn-rounded waves-effect waves-light" data-toggle="modal" data-target="#exampleModal" ng-click="TaoMoi()"><i class="fe-plus"></i> Tạo mới</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="card-box">
+                    <table class="table mb-0 tablesaw table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Mã SP</th>
+                                <th>Tên SP</th>
+                                <th>Mô tả</th>
+                                <th>Ram</th>
+                                <th>Rom</th>
+                                <th>Số lượng</th>
+                                <th>Đơn giá</th>
+                                <th>Mã loại</th>
+                                <th>Mã hãng</th>
+                                <th>Ảnh</th>
+                                <th colspan="2">Thao tác</th>
+                            </tr>
+                        </thead>
+
+
+                        <tbody>
+                            <tr ng-repeat="s in listSP">
+                                <td>{{s.MaSP}}</td>
+                                <td>{{s.TenSP}}</td>
+                                <td>
+                                    {{s.MoTa|limitTo:100}}{{s.MoTa.length > 100? "..." : ""}}
+                                </td>
+                                <td>{{s.Ram}}</td>
+                                <td>{{s.Rom}}</td>
+                                <td>{{s.SoLuong}}</td>
+                                <td>{{s.DonGia.toLocaleString(vi-vn)}}</td>
+                                <td>{{s.MaLoai}}</td>
+                                <td>{{s.MaHang}}</td>
+                                <td><img src="~/Assets/images/{{s.Anh}}" style="width:80px;" /></td>
+                                <td>
+                                    <span id="save" class="btn btn-outline-primary btn-rounded waves-effect waves-light" ng-click="getbyID(s)" data-toggle="modal" data-target="#exampleModal">
+                                        <i class="fe-edit-2"></i>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span id="save" class="btn btn-outline-danger btn-rounded waves-effect waves-light" ng-click="deletebyID(s)">
+                                        <i class="fe-trash-2"></i>
+                                    </span>
+                                </td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="modal fade" id="exampleModal" tabindex="1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content" style="width: 150%; margin-left: -100px;">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Sản phẩm</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <form novalidate name="frmSP" id="frmSP" class="form-horizontal row-border" style="display: flex;">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="col-md-4 control-label" for="input17"> Tên SP</label>
+                                                <div class="col-md-12"> <input type="text" id="idTenSP" class="form-control" name="nameTenSP" ng-model="TenSP" /> </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-md-4 control-label" for="input17">Mô tả</label>
+                                                <div class="col-md-12"> <input type="text" id="idMoTa" class="form-control" name="nameMoTa" ng-model="MoTa" /> </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-md-4 control-label" for="input17"> Ram</label>
+                                                <div class="col-md-12"> <input type="text" id="idRam" class="form-control" name="nameRam" ng-model="Ram" /> </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-md-4 control-label" for="input17"> Rom</label>
+                                                <div class="col-md-12"> <input type="text" id="idRom" class="form-control" name="nameRom" ng-model="Rom" /> </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="col-md-4 control-label" for="input17"> Số lượng</label>
+                                                <div class="col-md-12"> <input type="text" id="idSoLuong" class="form-control" name="nameSoLuong" ng-model="SoLuong" /> </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-md-4 control-label" for="input17"> Đơn giá</label>
+                                                <div class="col-md-12"> <input type="text" id="idDonGia" class="form-control" name="nameDonGia" ng-model="DonGia" /> </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-md-4 control-label" for="input17"> Mã loại</label>
+                                                <div class="col-md-12">
+                                                    <select class="form-control" ng-model="MaLoai">
+                                                        <option ng-repeat="l in listLSP" value="{{l.MaLoai}}">
+                                                            {{l.TenLoai}}
+                                                        </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="col-md-4 control-label" for="input17"> Mã hãng</label>
+                                                <div class="col-md-12">
+                                                    <select class="form-control" ng-model="MaHang">
+                                                        <option ng-repeat="h in listHSP" value="{{h.MaHang}}">
+                                                            {{h.TenHang}}
+                                                        </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-md-4 control-label" for="input17"> Ảnh</label>
+                                                <div class="col-md-12"> <input type="text" id="idAnh" class="form-control" name="nameAnh" ng-model="Anh" /> </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-md-12"> </div>
+                                                <div class="col-md-12">
+                                                    <span id="save" class="btn btn-success margin-right-btn" ng-click="CreateUpdate()">
+                                                        <i class="icon-save"></i> {{btnText}}
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+    <script src="~/AngulaJS/CrudService.js"></script>
+    <script src="~/AngulaJS/AD_SanPham.js"></script>
+}
+

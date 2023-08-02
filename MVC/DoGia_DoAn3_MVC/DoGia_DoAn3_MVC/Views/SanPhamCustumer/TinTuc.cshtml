@@ -1,0 +1,96 @@
+﻿
+@{
+    ViewBag.Title = "TinTuc";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+<div class="row" style="margin-bottom: 20px">
+    <div class="home">
+        <ul class="head-home">
+            <li>
+                <a href="./index.html" style="color: #999;">Trang chủ</a>
+                <span class="tab">/</span>
+                <span>Tin tức</span>
+            </li>
+        </ul>
+    </div>
+    <div class="product-detail" style=" background: #f5f6f9;">
+        <div class="page_product_content">
+            <div class="content-left-list" style="width: 29%;">
+                <div class="left-news ">
+                    <div class="left-news-1 col-t-12 col-m-12">
+                        <div class="head-left-news">
+                            <div class="title-head-left-news">
+                                <p>Danh mục tin tức</p>
+                            </div>
+                        </div>
+                        <div class="content-head-left-news-1">
+                            <ul>
+                                <li>
+                                    <p>Trang chủ</p>
+                                </li>
+                                <li>
+                                    <p>Giới thiệu</p>
+                                </li>
+                                <li>
+                                    <p>Sản phẩm</p>
+                                </li>
+                                <li>
+                                    <p>Tin tức</p>
+                                </li>
+                                <li>
+                                    <p>Câu hỏi thường gặp</p>
+                                </li>
+                                <li>
+                                    <p>Liên hệ</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="left-news-1 col-t-12 col-m-12">
+                        <div class="head-left-news">
+                            <div class="title-head-left-news">
+                                <p>Bài viết xem nhiều</p>
+                            </div>
+                        </div>
+                        <div class="content-head-left-news-2">
+                            <ul ng-repeat="t in listTT | limitTo: 3">
+                                <li>
+                                    <div class="left-content-news">
+                                        <img src="/Assets/images/{{t.Anh}}" alt="Tin1">
+                                    </div>
+                                    <div class="right-content-news">
+                                        <span style="font-weight: bold">{{t.TieuDe}}</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-right-list" style="width: 69%;">
+                <div class="right-news">
+                    <div class="head-right-news">
+                        <div class="title-head-right-news">
+                            <h2>TIN TỨC</h2>
+                        </div>
+                    </div>
+                    <div class="right-news-1" style="height: 325px " ng-repeat="s in listTT">
+
+                        <div class="top-right">
+                            <img src="~/Assets/images/{{s.Anh}}" alt="">
+                        </div>
+                        <div class="bottom-right">
+                            <h1 style="font-weight: bold; font-size: 18px">{{s.TieuDe}}</h1>
+                            <p style="font-size: 14px; color: #444444 ">{{s.NoiDung|limitTo:80}}{{s.NoiDung.length > 80? "..." : ""}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+    <script src="~/AngulaJS/CrudService.js"></script>
+    <script src="~/AngulaJS/SanPham.js"></script>
+}
